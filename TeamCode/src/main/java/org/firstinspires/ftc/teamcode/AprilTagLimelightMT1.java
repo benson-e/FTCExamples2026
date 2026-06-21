@@ -48,15 +48,6 @@ public class AprilTagLimelightMT1 extends OpMode{
         }
         telemetry.update();
     }
-
-
-
-  private double getDistanceFromTag(double ta) {
-        //distance is the hypotenuse
-        double scale = 128.9873; // = c value in equation of curve c/x
-        double distance = (scale/ta) ;
-        return distance;
-    }
 }
 
 
