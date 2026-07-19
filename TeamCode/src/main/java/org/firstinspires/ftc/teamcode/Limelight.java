@@ -26,18 +26,6 @@ public class Limelight {
         limelight.start();
     }
 
-    public int getTagID() {
-        //limelight.pipelineSwitch(1);
-        /*LLResult result = limelight.getLatestResult();
-        List<LLResultTypes.FiducialResult> fiducials = result.getFiducialResults();
-        if (!fiducials.isEmpty()) {
-            LLResultTypes.FiducialResult fiducial = fiducials.get(0);
-            return fiducial.getFiducialId();
-        } else {
-            return 0;
-        }*/
-        return 21;
-    }
 
 
     public Pose getPosition(){
